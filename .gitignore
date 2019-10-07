@@ -1,2 +1,4 @@
 *pyc
 train_dir.txt
+.vscode/
+data/samples_out/
