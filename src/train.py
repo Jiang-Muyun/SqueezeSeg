@@ -201,7 +201,7 @@ def train():
         if step % FLAGS.checkpoint_step == 0 or step == FLAGS.max_steps-1:
           checkpoint_path = os.path.join(FLAGS.train_dir, 'model.ckpt')
           saver.save(sess, checkpoint_path, global_step=step)
-    except Exception, e:
+    except Exception as e:
       coord.request_stop(e)
     finally:
       coord.request_stop()
