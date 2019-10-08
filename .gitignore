@@ -4,3 +4,4 @@ train_dir.txt
 data/samples_out/
 data/lidar_2d/
 log/train
+log/eval_val

@@ -95,7 +95,7 @@ The instructions are tested on Ubuntu 16.04 with python 2.7 and tensorflow 1.0 w
     cd $SQSG_ROOT/
     ./scripts/eval.sh -gpu 1 -image_set val -log_dir ./log/
     ```
-    
+
 - We can monitor the training process using tensorboard.
     ```Shell
     tensorboard --logdir=$SQSG_ROOT/log/
@@ -103,5 +103,3 @@ The instructions are tested on Ubuntu 16.04 with python 2.7 and tensorflow 1.0 w
     Tensorboard displays information such as training loss, evaluation accuracy, visualization of detection results in the training process, which are helpful for debugging and tunning models, as shown below:
     ![alt text](https://github.com/BichenWuUCB/SqueezeSeg/raw/master/readme/Screen%20Shot%202018-02-17%20at%206.13.44%20PM.png)
     ![alt text](https://github.com/BichenWuUCB/SqueezeSeg/raw/master/readme/Screen%20Shot%202018-02-17%20at%206.14.05%20PM.png)
-
-
